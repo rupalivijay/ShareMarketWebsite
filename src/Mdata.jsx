@@ -6,18 +6,18 @@ import marketing from "../src/Images/w1.jpeg";
 import software from "../src/Images/w1.jpeg";
 
 const Mdata = [
-    {
-        img: web, 
-        title:"F and O",
-    },
-    {
-        img: app, 
-        title:"Backup ",
-    },
-    {
-        img: android, 
-        title:"membership",
-    },
+  {
+    img: web,
+    title: "F and O",
+  },
+  {
+    img: app,
+    title: "Backup ",
+  },
+  {
+    img: android,
+    title: "membership",
+  },
 ];
 
 export default Mdata;

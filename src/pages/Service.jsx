@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "./Card";
-import Sdata from "./Sdata";
-import s1 from "../src/Images/s3.svg";
-import s2 from "../src/Images/s1.svg";
-import s3 from "../src/Images/s2.svg";
- 
+import Card from "../components/Card";
+import Sdata from "../Sdata";
+import s1 from "../Images/s3.svg";
+import s2 from "../Images/s1.svg";
+import s3 from "../Images/s2.svg";
+
 const Service = () => {
   return (
     <>
@@ -89,7 +89,7 @@ const Service = () => {
           </div>
         </div>
       </section>
- 
+
       <div className="my-5">
         <h1 className="text-center">Our Services</h1>
       </div>
@@ -107,6 +107,5 @@ const Service = () => {
     </>
   );
 };
- 
+
 export default Service;
- 
